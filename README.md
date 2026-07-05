@@ -1,59 +1,95 @@
 # FitAngularApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.5.
+Este projeto foi criado com [Angular CLI](https://github.com/angular/angular-cli) versão 22.0.5.
 
-## Development server
+## Requisitos
 
-To start a local development server, run:
+Antes de rodar o projeto, certifique-se de ter instalado:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+## Instalação
+
+No diretório do projeto, execute:
+
+```bash
+npm install
+```
+
+## Executar a aplicação
+
+Para iniciar o servidor de desenvolvimento, rode:
+
+```bash
+npm start
+```
+
+Ou, alternativamente:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Após o servidor subir, abra o navegador em:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+A aplicação será recarregada automaticamente sempre que você alterar os arquivos do projeto.
+
+## Build da aplicação
+
+Para gerar a versão de produção, execute:
 
 ```bash
-ng generate --help
+npm run build
 ```
 
-## Building
+Os arquivos compilados serão gerados na pasta `dist/`.
 
-To build the project run:
+## Testes
+
+Para executar os testes unitários:
 
 ```bash
-ng build
+npm test
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Criação de componentes
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Para criar um novo componente standalone, por exemplo um componente de login, execute:
 
 ```bash
-ng test
+npm run ng generate component Signin --standalone
 ```
 
-## Running end-to-end tests
+Esse comando usa o Angular CLI disponível no projeto para gerar o componente com a configuração standalone.
 
-For end-to-end (e2e) testing, run:
+### Diferença entre usar `npm run ng` e `ng`
 
-```bash
-ng e2e
-```
+Quando há apenas uma versão do Angular instalada no ambiente, o comando `ng` geralmente funciona diretamente. Porém, usar `npm run ng` pode ser mais seguro em projetos que já têm o Angular CLI configurado localmente via `node_modules`, pois ele garante que o comando será executado a partir da instalação do projeto.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Recursos adicionais
 
-## Additional Resources
+Para mais informações sobre o Angular CLI, consulte a [documentação oficial](https://angular.dev/tools/cli).
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 👨🏻‍💻 Contato
+
+<p style="padding-top:5px">
+	<img src="https://avatars.githubusercontent.com/u/52001930?s=400&u=fb999c966c5c652a8357cbede4b1112e79cbfe18&v=4" alt="avatar" style="width:96px;height:96px;border-radius:50%;object-fit:cover;">
+
+<p>&nbsp&nbsp&nbsp Wagner Andrade<br>
+    &nbsp&nbsp&nbsp
+    <a href="https://github.com/wsawebmaster">
+    GitHub</a>&nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/
+wsawebmaster">LinkedIn</a>
+&nbsp;|&nbsp;
+<a href="mailto:wsawebmaster@yahoo.com.br">
+    Email</a>
+  &nbsp;|&nbsp;
+</p>
