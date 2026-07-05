@@ -1,0 +1,9 @@
+
+.invalid {
+    color: #ff0000;
+}
+
+.pure-form input[type="text"].invalid {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
