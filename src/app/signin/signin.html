@@ -6,17 +6,17 @@
             </legend>
             <div class="field">
                 <label for="email" class="fieldText">E-mail</label>
-                <input id="email" name="email" type="text" placeholder="meu melhor e-mail" />
+                <input id="email" name="email" [(ngModel)]="email" type="text" placeholder="seu melhor e-mail" />
             </div>
             <div class="field">
                 <label for="phone" class="fieldText">Telefone</label>
-                <input id="phone" name="phone" type="text" placeholder="meu melhor telefone" />
+                <input id="phone" name="phone" [(ngModel)]="phone" type="text" placeholder="seu melhor telefone" />
             </div>
 
             <hr />
-            <button type="button" class="pure-button pure-button-primary">
+            <button type="button" class="pure-button pure-button-primary" (click)="signIn()">
                 Assinar agora!
             </button>
         </fieldset>
     </div>
-</div>>
+</div>

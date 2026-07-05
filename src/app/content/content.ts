@@ -7,4 +7,10 @@ import { Signin } from "../signin/signin";
   templateUrl: './content.html',
   styleUrl: './content.css',
 })
-export class Content {}
+export class ContentComponent {
+  submitted: boolean = false;
+
+  setSubmitted(status: boolean) {
+    this.submitted = status;
+  }
+}
