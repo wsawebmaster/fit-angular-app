@@ -2,7 +2,13 @@
   <h1>Primeiros passos com Angular</h1>
   @if (submitted) {
     <div>Obrigado por assinar nosso feed</div>
-    <button type="button" class="pure-button pure-button-xs" (click)="setSubmitted(false)">voltar...</button>
+    <button type="button" class="pure-button pure-button-xs" (click)="setSubmitted(null)">voltar...</button>
+    <p>
+      {{ submitted | json }}
+    </p>
+    <p>
+      {{ submitted?.email | sensitive }}
+    </p>
   } 
   @else {
     <app-signin (submittedControl)="setSubmitted($event)" />
