@@ -113,15 +113,15 @@ Para mais informações sobre o Angular CLI, consulte a [documentação oficial]
 <p style="padding-top:5px">
 	<img src="https://avatars.githubusercontent.com/u/52001930?s=400&u=fb999c966c5c652a8357cbede4b1112e79cbfe18&v=4" alt="avatar" style="width:96px;height:96px;border-radius:50%;object-fit:cover;">
 
-<p>&nbsp;&nbsp;&nbsp; Wagner Andrade<br>
-    &nbsp;&nbsp;&nbsp;
+<p>&nbsp&nbsp&nbsp Wagner Andrade<br>
+    &nbsp&nbsp&nbsp
     <a href="https://github.com/wsawebmaster">
-      <img src="assets/icons/github.svg" alt="GitHub" width="16" height="16" />&nbsp;GitHub
+      <img src="https://img.icons8.com/ios-glyphs/16/github.png" alt="GitHub" width="16" height="16" />&nbsp;GitHub
     </a>&nbsp;|&nbsp;
     <a href="https://www.linkedin.com/in/wsawebmaster">
-      <img src="assets/icons/linkedin.svg" alt="LinkedIn" width="16" height="16" />&nbsp;LinkedIn
+      <img src="https://img.icons8.com/color/16/linkedin.png" alt="LinkedIn" width="16" height="16" />&nbsp;LinkedIn
     </a>&nbsp;|&nbsp;
     <a href="mailto:wsawebmaster@yahoo.com.br">
-      <img src="assets/icons/email.svg" alt="Email" width="16" height="16" />&nbsp;Email
+      <img src="https://img.icons8.com/ios-glyphs/16/secured-letter.png" alt="Email" width="16" height="16" />&nbsp;Email
     </a>
 </p>
