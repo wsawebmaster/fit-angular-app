@@ -9,8 +9,7 @@ import { User } from './models/User';
   selector: 'app-signin',
   imports: [FormsModule, OnBlurTriggerValidationDirective, ListElementsDirective],
   templateUrl: './signin.html',
-  styleUrl: './signin.css',
-  providers: [SigninService],
+  styleUrl: './signin.css'
 })
 export class Signin {
   emailRegExp: RegExp = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
